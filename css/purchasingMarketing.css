@@ -414,6 +414,11 @@ input[type="checkbox"]:checked + label > span:before {
 }
 
 @media (max-width: 530px) {
+    .page__main-block {
+      background-size: 853px;
+      background-position: center;
+    }
+
   .promo__text {
     font-size: 32px;
     padding-top: 56px;
